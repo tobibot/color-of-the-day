@@ -1,9 +1,39 @@
 # color-of-the-day
 
-## Einleitung
 
-Wir haben smarte Außenbeleuchtung. Unser Sohn wollte, dass sie bunt leuchtet, nicht nur gelb-weiß.
-Er durfte sich pro Wochentag eine andere Farbe auswählen, und in dieser leuchtet es draußen.
-Da wir aber unsere vielen Nachbarn und Passanten mit in die Farbwahl einbinden wollen, möchte ich eine einfache Webseite erstellen. Im ersten Schritt soll man an der Abstimmung für die Farbe des folgenden Tages teilnehmen können.
+## Introduction
 
-Das Projekt wird aus drei Teilen bestehen: Einer Webseite, einer Web-API und "irgendeinem Speicher".
+We have smart outdoor lighting. Our son wanted it to shine in different colors, not just yellow-white. He was allowed to choose a different color for each day of the week, and this is the color that shines outside, controlled via Home Assistant. However, since we want to involve our many neighbors and passers-by in the color selection, I want to create a simple website. In the first step, you should be able to participate in the vote for the color of the following day. Participation will be available with scanning a QR-Code.
+
+The project will consist of three parts: A website, a web API, and "some kind of storage".
+
+On the other hand, the value is loaded and applied in Home Assistant via the API.
+
+## Previous color selection
+
+This is the automation script:
+
+```[yaml]
+alias: 💡💡💡 Set light of the day 💡💡💡
+description: ""
+trigger:
+  - platform: time
+    at: "00:00:00"
+condition: []
+action:
+  - service: input_text.set_value
+    data:
+      entity_id: input_text.color_of_the_day
+      value: |
+        {% set color_map = {
+            'mon': 'orange',
+            'tue': 'magenta',
+            'wed': 'yellow',
+            'thu': 'green',
+            'fri': 'lightblue',
+            'sat': 'red',
+            'sun': 'darkblue'
+          } %}
+        {{ color_map[now().strftime('%a').lower()] }}
+mode: single
+```
