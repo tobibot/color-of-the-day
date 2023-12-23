@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorOfTheDay.Website", "ColorOfTheDay.Website\ColorOfTheDay.Website.csproj", "{D2CF52B6-8089-44D2-A437-BAB17E9CD6F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorOfTheDay.WebAPI", "ColorOfTheDay.WebAPI\ColorOfTheDay.WebAPI.csproj", "{B1D41422-80A2-438D-9DF1-51B473217947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2CF52B6-8089-44D2-A437-BAB17E9CD6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CF52B6-8089-44D2-A437-BAB17E9CD6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CF52B6-8089-44D2-A437-BAB17E9CD6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CF52B6-8089-44D2-A437-BAB17E9CD6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D41422-80A2-438D-9DF1-51B473217947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D41422-80A2-438D-9DF1-51B473217947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D41422-80A2-438D-9DF1-51B473217947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D41422-80A2-438D-9DF1-51B473217947}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

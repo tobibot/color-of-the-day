@@ -1,0 +1,6 @@
+@ColorOfTheDay.WebAPI_HostAddress = http://localhost:5245
+
+GET {{ColorOfTheDay.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
