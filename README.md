@@ -3,7 +3,7 @@
 
 ## Introduction
 
-We have smart outdoor lighting. Our son wanted it to shine in different colors, not just yellow-white. He was allowed to choose a different color for each day of the week, and this is the color that shines outside, controlled via Home Assistant. However, since we want to involve our many neighbors and passers-by in the color selection, I want to create a simple website. In the first step, you should be able to participate in the vote for the color of the following day. Participation will be available with scanning a QR-Code.
+We have smart outdoor lighting. Our son wanted it to shine in different colors, not just yellow-white. He was allowed to choose a different color for each day of the week, and this is the color that shines outside, controlled via [Home Assistant](https://www.home-assistant.io/). However, since we want to involve our many neighbors and passers-by in the color selection, I want to create a simple website. In the first step, you should be able to participate in the vote for the color of the following day. Participation will be available with scanning a QR-Code.
 
 The project will consist of three parts: A website, a web API, and "some kind of storage".
 
