@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorOfTheDay.Website", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorOfTheDay.WebAPI", "ColorOfTheDay.WebAPI\ColorOfTheDay.WebAPI.csproj", "{B1D41422-80A2-438D-9DF1-51B473217947}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorOfTheDay.WebAPI.Test", "ColorOfTheDay.WebAPI.Test\ColorOfTheDay.WebAPI.Test.csproj", "{BD783FEA-D84D-4BEF-8BC3-F74EAC8E73AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorOfTheDay.Website.Test", "ColorOfTheDay.Website.Test\ColorOfTheDay.Website.Test.csproj", "{0467C5F8-31E0-45E7-AEEB-94EE7E6146BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{B1D41422-80A2-438D-9DF1-51B473217947}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D41422-80A2-438D-9DF1-51B473217947}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D41422-80A2-438D-9DF1-51B473217947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD783FEA-D84D-4BEF-8BC3-F74EAC8E73AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD783FEA-D84D-4BEF-8BC3-F74EAC8E73AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD783FEA-D84D-4BEF-8BC3-F74EAC8E73AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD783FEA-D84D-4BEF-8BC3-F74EAC8E73AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0467C5F8-31E0-45E7-AEEB-94EE7E6146BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0467C5F8-31E0-45E7-AEEB-94EE7E6146BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0467C5F8-31E0-45E7-AEEB-94EE7E6146BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0467C5F8-31E0-45E7-AEEB-94EE7E6146BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
